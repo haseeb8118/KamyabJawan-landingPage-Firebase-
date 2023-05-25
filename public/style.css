@@ -1,0 +1,73 @@
+.brand{
+    color: orange;
+    font-style: oblique;
+    font-family: fantasy;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+    margin-left: 30px;
+    padding: 0;    
+}
+.navbar{
+    
+    padding-bottom: 2px;
+}
+a {color: white;}
+a:link {
+    color: white;
+    text-decoration: none;
+  }
+a:hover {
+    color: wheat;
+    text-decoration: underline;
+    background-color: orange;
+  }
+a:active {
+    color: orange;
+    text-decoration: underline;
+  }
+
+.title{
+    color: orange;
+    font-style: italic;
+    font-size: large;
+    font-family: sans-serif;
+}
+.bgImg{
+    background-image: url("assets/backgroundImage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subBg{
+    background-image: url("assets/sub-ground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.title{
+    padding: 0px;
+    margin: 0px;
+}
+.text{
+    padding: 0px;
+    margin: 0%;
+    color: whitesmoke;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;   
+    background: orange;
+    text-align: center ;
+ }
+ .fot{
+    color: black;
+    font-size: 1em;
+ }
